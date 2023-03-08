@@ -8,7 +8,14 @@ PASO 1
 Crear una carpeta en la ruta C:/JavaArchivos. Será en JavaArchivos donde se genere el archivo fichero-proyecto.txt.
 
 PASO 2
-Se debe crear una conexión con perfil root (Tanto usuario como contraseña: root/root) para ejecutar en ella el script aportado para la creación del esquema, la tabla proveedores y los datos de ejemplo. Si se usa MySQL Workbench se puede importar directamente a través de Server>Import Data>Import from Self-Contained File y seleccionamos nuestro script.sql.
+Se debe crear una conexión con perfil root (Tanto usuario como contraseña: root/root) para ejecutar en ella el script aportado para la creación del esquema, la tabla proveedores y los datos de ejemplo. Si se usa MySQL Workbench se puede importar directamente a través de Server>Import Data>Import from Self-Contained File y seleccionamos nuestro script.sql. Una vez ejecutado el script tendremos un esquema llamado bd_proyectobs con la tabla proveedores en ella.
+
+Datos de la conexión configurada
+URL_conexion: jdbc:mysql://localhost:3306/bd_proyectobs
+USUARIO: root
+PASS: root
+
+Nota: el puerto 3306 es el usado por defecto por MySQL.
 
 PASO 3
 Se creará una carpeta en el Escritorio con el nombre que queramos para poner nuestro programa.jar y poder ejecutarlo a través de la Consola de Sistema. Se necesita tener configurado en el PATH de JAVA para la variable de entorno un JDK compatible, pues vamos a utilizar el comando java -jar en la ejecución. (En mi caso, utilizo JAVA17).
