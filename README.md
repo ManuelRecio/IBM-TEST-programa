@@ -11,9 +11,9 @@ PASO 2
 Se debe crear una conexión con perfil root (Tanto usuario como contraseña: root/root) para ejecutar en ella el script aportado para la creación del esquema, la tabla proveedores y los datos de ejemplo. Si se usa MySQL Workbench se puede importar directamente a través de Server>Import Data>Import from Self-Contained File y seleccionamos nuestro script.sql. Una vez ejecutado el script tendremos un esquema llamado bd_proyectobs con la tabla proveedores en ella.
 
 Datos de la conexión configurada
-URL_conexion: jdbc:mysql://localhost:3306/bd_proyectobs
-USUARIO: root
-PASS: root
+URL_conexion: jdbc:mysql://localhost:3306/bd_proyectobs/n
+USUARIO: root/n
+PASS: root/n
 
 Nota: el puerto 3306 es el usado por defecto por MySQL.
 
